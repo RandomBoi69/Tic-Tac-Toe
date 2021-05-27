@@ -16,20 +16,10 @@ namespace main
         {
             bool turn_ = true;
             List<string> p = new List<string> { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]"};
-            Console.WriteLine("Tic Tac Toe
-
-Type numbers to choose!
-
-[1][2][3]
-[4][5][6]
-[7][8][9]
-
-Press any key to continue");
+            Console.WriteLine("Tic Tac Toe\nType numbers to choose!\n[1][2][3]\n[4][5][6]\n[7][8][9]\n\nPress any key to continue");
             Console.ReadKey();
             Console.Clear();
-            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
             while (true)
             {
             	String turn = "";
@@ -228,18 +218,14 @@ Press any key to continue");
                             Console.Clear();
                             p[0] = "[X]";
                             turn_ = false;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                         else if (!turn_)
                         {
                             Console.Clear();
                             p[0] = "[O]";
                             turn_ = true;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                     }
                 }
@@ -252,18 +238,14 @@ Press any key to continue");
                             Console.Clear();
                             p[1] = "[X]";
                             turn_ = false;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                         else if (!turn_)
                         {
                             Console.Clear();
                             p[1] = "[O]";
                             turn_ = true;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                     }
                 }
@@ -276,18 +258,14 @@ Press any key to continue");
                             Console.Clear();
                             p[2] = "[X]";
                             turn_ = false;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                         else if (!turn_)
                         {
                             Console.Clear();
                             p[2] = "[O]";
                             turn_ = true;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                     }
                 }
@@ -300,18 +278,14 @@ Press any key to continue");
                             Console.Clear();
                             p[3] = "[X]";
                             turn_ = false;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                         else if (!turn_)
                         {
                             Console.Clear();
                             p[3] = "[O]";
                             turn_ = true;
-                            Console.WriteLine(p[0] + p[1] + p[2] + "
-" + p[3] + p[4] + p[5] + "
-" + p[6] + p[7] + p[8]);
+                            Console.WriteLine(p[0] + p[1] + p[2] + "\n" + p[3] + p[4] + p[5] + "\n" + p[6] + p[7] + p[8]);
                         }
                     }
                 }
